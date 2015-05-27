@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de mí.
-permalink: /Acerca de mí/
+permalink: /about/
 ---
 
 Esposo, padre, programador, geek, bicicletero, lector, corredor, entusiasta del conocimiento, el chico guapo de la oficina. Me niego a quedarme estático.
