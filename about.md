@@ -2,6 +2,7 @@
 layout: page
 title: Acerca de mí.
 permalink: /about/
+image: /assets/article_images/about/mty_1.jpg
 ---
 
 Esposo, padre, programador, geek, bicicletero, lector, corredor, entusiasta del conocimiento, el chico guapo de la oficina. Me niego a quedarme estático.
