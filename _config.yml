@@ -92,9 +92,9 @@ social:
   - icon:	twitter
     url:	https://twitter.com/urielable
     desc: Sígueme en twitter
-    share_url: http://twitter.com/urielable
-    share_title: ?text=
-    share_link: "&amp;url="
+    share_url: http://twitter.com/share
+    share_title: "?text=Hola les recomiendo e siguiente post "
+    share_link:
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
