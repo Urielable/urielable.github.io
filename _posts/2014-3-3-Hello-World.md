@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Init
+date:   2015-05-28
+categories: bienvenida
+tags: general
 ---
 
 Hola, este es mi primer post.
