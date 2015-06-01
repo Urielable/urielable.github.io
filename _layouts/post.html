@@ -17,8 +17,7 @@
             <div class="cf post-meta-text">
               <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
-              on
-              <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
+              <time datetime="{{ page.date | date: "%m-%d-%Y" }}">{{ page.date | date: "%m-%d-%Y" }}</time>
               <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
             </div>
             <div style="text-align:center">
@@ -33,8 +32,7 @@
             <div class="cf post-meta-text">
               <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
-              on
-              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+              <time datetime="{{ page.date | date: "%m-%d-%Y"  }}">{{ page.date | date: "%m-%d-%Y"  }}</time>
               <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
             </div>
           </div>
@@ -75,7 +73,7 @@
           </div>
           {{/post}}
           <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <h5 class="index-headline featured"><span>Soportado por</span></h5>
             <footer class="site-footer">
               <section class="poweredby">Publicado orgullosamente con <a href="http://jekyllrb.com"> Jekyll</a></section>
               <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Puedes suscribirte a mi feed.</span></a>

@@ -23,7 +23,7 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a href="/about/">About</a>
+      <a href="/about/">Acerca de mí</a>
     </div>
 </header>
 
@@ -42,11 +42,11 @@ layout: default
             </header>
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.excerpt }}</p>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas...</a>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más...</a>
             </section>
             <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-              <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
+              <time datetime="{{ post.date | date_to_long_string }}">Publicado el {{ post.date | date: "%m-%d-%Y"}}</time>
+              <span class="post-tags-set">{{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
             </div>
           </div>
         </article>
@@ -65,11 +65,11 @@ layout: default
             </header>
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.excerpt }}</p>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas...</a>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más...</a>
             </section>
             <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-              <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
+              <time datetime="{{ post.date | date_to_long_string }}">Publicado el {{ post.date | date: "%m-%d-%Y"}}</time>
+              <span class="post-tags-set">{{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
             </div>
           </div>
         </article>
