@@ -4,6 +4,7 @@ title: Concurrencia y paralelismo
 date:   2015-05-31
 categories: Concurrencia paralelismo "Programacion funcional"
 tags: Programación
+comments: true
 ---
 
 Últimamente leemos mucho sobre concurrencia y paralelismo, y aunque están relacionadas, son cosas diferentes.
