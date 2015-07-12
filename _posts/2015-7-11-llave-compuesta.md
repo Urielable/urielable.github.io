@@ -48,7 +48,7 @@ CREATE TABLE public.state
 (
  state_id varchar(2) NOT NULL UNIQUE,
  state varchar(50),
- country_id varchar(2) NOT NULL UNIQUE,
+ country_id varchar(2) NOT NULL,
  PRIMARY KEY(country_id, state_id)
 )
 WITH (
