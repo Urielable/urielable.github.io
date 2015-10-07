@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Erlang Factory México
-date:   2015-10-19
+date:   2015-9-19
 categories: Programacion Erlang
 tags: Programación
 comments: true

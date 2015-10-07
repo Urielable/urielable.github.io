@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Personalizar una llave primaria con Phoenix-Ecto
-date:   2015-10-29
+date:   2015-9-29
 categories: Programacion elixir phoenix ecto 
 tags: Programación
 comments: true
