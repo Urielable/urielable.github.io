@@ -14,7 +14,7 @@ Primero les dejo una excelente presentación con una explicación de como diseñ
 Continuando con lo que les quiero mostrar, Phoenix nos facilita la creación de una API REST, quitandonos de encima html inescesarios para poder crear el proyecto lo hacemos de esta manera:
 
 ```bash
-$ mix phoenix.new api_rest --no-html
+$ mix phoenix.new api_json --no-html
 ```
 
 Esto nos generará un proyecto sin templates html, que al menos en este momento, no son necesarios. 
@@ -153,9 +153,25 @@ $ iex -S mix phoenix.server
 Ahora probemos nuestra API, para esto usaremos la siguiente CURL: 
 
 ```bash
-$ curl -i -X POST -H 'Content-Type:application/json' -d '{"user": {"first_name":"uriel","last_name":"molina", "books":[{"book":"Neo","editorial":"responsible"}, {"book":"user","editorial":"nanderson"}] } }' http://localhost:4001/api/users > out.html
+$ curl -i -X POST -H 'Content-Type:application/json' -d '{"user": {"first_name":"uriel","last_name":"molina", "books":[{"book":"Neo","editorial":"responsible"}, {"book":"user","editorial":"nanderson"}] } }' http://localhost:4000/api/users > out.html
+```
+Responde:
+
+```json
+HTTP/1.1 201 Created
+server: Cowboy
+date: Thu, 08 Oct 2015 00:59:40 GMT
+content-length: 60
+content-type: application/json; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+x-request-id: q8n5lpuro3qkgihdmp26ove415thtm49
+location: /api/users/20
+
+{"data":{"last_name":"molina","id":20,"first_name":"uriel"}}
 ```
 
 Listo tenemos nuestra API REST.
 
 Aunque sea muy basico, cualquier duda que tengan dejen un comentarlo.
+
+[Repositorio con ejemplo.](https://github.com/Urielable/api_json)
