@@ -7,7 +7,21 @@ tags: Programación
 comments: true
 ---
 
-Hola, en esta ocasión les traigo un mini tutorial de como crear una api REST usando [Phoenix framework](http://www.phoenixframework.org/).
+Hola, en esta ocasión les traigo un tutorial de como crear una api REST usando [Phoenix framework](http://www.phoenixframework.org/).
+
+Al momento de escribir esto, las versiones actuales de nuestras aplicaciones son:
+
+- **Elixir:** v1.1.0
+- **Phoenix:** v1.0.3
+- **Ecto:** v1.0.4
+
+Si estás leyendo esto y no son las últimas versiones, comentalo y voy a actualizar este tutorial.
+
+### Instalar phoenix
+
+Las mejores instrucciones para instalar phoenix, pueden ser encontradas en su [pagina web](http://www.phoenixframework.org/docs/installation).
+
+### Primer paso: crear nuestro proyecto.
 
 Primero les dejo una excelente presentación con una explicación de como diseñar un API REST creada por [Brian Mulloy](https://twitter.com/landlessness), pueden ver la presentación [aquí](../assets/tarballs/restful-api-design--mulloy-2ed.pdf).
 
@@ -49,7 +63,7 @@ scope "/api", Api do
 end
 ```
 
-### Migraciones
+### Segundo paso: Migraciones
 
 Ahora modificaremos las migraciones, para crear la base de datos a nuestro gusto. Primero modificaremos nuestra migración de usuarios, quedará de la siguiente forma:
 
@@ -101,7 +115,7 @@ $ mix ecto.create
 $ mix ecto.migrate
 ```
 
-### Modelos
+### Tercer paso: Modelos
 
 Ahora iremos a modificar nuestros modelos, comenzaremos por el modelo de usuarios:
 
