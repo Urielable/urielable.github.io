@@ -436,7 +436,9 @@ IO.puts 10_000..1
 ```
 En este ejemplo podemos encontrar:
 
-- En este caso usamos `Stream.filter`, ya que sólo ocupamos el último posible primo para mostrar, es decir, no es necesario tomar todos los valoes de la lista, esto hace que no mantengamos en memoria una lista enorme, que podría ser imposible de manejar. Por eso es conveniente conocer el módulo [Stream](http://elixir-lang.org/docs/stable/elixir/Stream.html).
+- Ejemplo de una [evaluación perezosa](https://es.wikipedia.org/wiki/Evaluaci%C3%B3n_perezosa).
+
+- En este caso usamos `Stream.filter`, ya que sólo ocupamos el último posible primo para mostrar, es decir, no es necesario tomar todos los valores de la lista, esto hace que no mantengamos en memoria una lista enorme, que podría ser imposible de manejar.
 
 - La utilización de funciones anónimas.
 
@@ -445,6 +447,9 @@ En este ejemplo podemos encontrar:
     - [Enum.take](http://elixir-lang.org/docs/v1.1/elixir/Enum.html#take/2).
     - [Enum.count](http://elixir-lang.org/docs/v1.1/elixir/Enum.html#count/2).
     - [Enum.all?](http://elixir-lang.org/docs/v1.1/elixir/Enum.html#all?/2).
+
+- Uso del módulo Stream:
+	- [Stream](http://elixir-lang.org/docs/stable/elixir/Stream.html).
 
 **Conclusión**
  
