@@ -5,17 +5,21 @@ permalink: /about/
 image: /assets/article_images/about/mty_1.jpg
 ---
 
-Esposo, padre, programador, geek, bicicletero, lector, corredor, entusiasta del conocimiento, el chico guapo de la oficina. Me niego a quedarme estático.
+Esposo, padre, programador, geek, bicicletero, lector, scout, corredor, entusiasta del conocimiento, el chico guapo de la oficina. Me niego a quedarme estático.
 
 ### Más información
 
-Soy ingeniero en sistemas, egresado de la Facultad de Ingeniería Mecánica y Eléctrica, programador desde el 2006 cuando se dio la oportunidad de trabajar en el ITESM campus Monterrey, luego de un tiempo ahí trabajé durante un año en Terra Networks hasta que llegué a mi actual trabajo en Diverza.
+Soy ingeniero en sistemas, egresado de la Facultad de Ingeniería Mecánica y Eléctrica, tengo cerca de 14 años trabajando en el area de tecnologia, enfocado en su mayoría en el desarrollo de software.
 
-Durante el transcurso de mi carrera, he trabajado con varios lenguajes de programación, desde los interpretados hasta los compilados.
+En este tiempo he participado en muchas partes del ambiente de desarrollo de software, infraestructura, redes, base de datos, front end y backend, considero tengo una fuerte base de ingenieria que he aplicado en los proyectos que he participado.
 
-Actualmente estoy trabajando en Ruby y estoy iniciando con Elixir.
+Durante el transcurso de mi carrera he trabajado con varios lenguajes de programación, desde los interpretados hasta los compilados.
 
-Mis pasatiempos son andar en bicicleta, pasar tiempo con mi familia, jugar videojuegos y leer. Actualmente también escribo en [comicgram](http://blog.comicgram.io/).
+Especialmente he trabajando en Ruby y estoy iniciando con Elixir.
+
+Mis pasatiempos son andar en bicicleta, pasar tiempo con mi familia, jugar videojuegos y leer.
+
+Me gusta mucho programar.
 
 ### Contáctame
 

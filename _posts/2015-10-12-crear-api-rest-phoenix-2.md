@@ -1,11 +1,19 @@
 ---
 layout: post
-title: Cómo crear un API REST con Phoenix, Parte 2. Testing.
+title: Cómo crear un API REST con Phoenix, Parte 2. Testing. <Legado>
 date:   2015-10-14
-categories: Programacion elixir phoenix
+categories: Programacion elixir phoenix 
 tags: Programación
 comments: true
 ---
+
+_________
+
+**NOTA:** Pense en actualizar el post a las versiones actuales, pero mejor lo dejaré como legado, será interesante ver que cambios hay de esta version a las versiones actuales. 
+
+Esperen el post o busquenlo en los post, ¡quiza ya lo escribí!.
+_________
+
 
 Una de las partes más importantes en el desarrollo de software es el manejo de pruebas, y en los frameworks modernos es indispensable poder implementarlas fácilmente. En Phoenix se tomaron muy en serio la creación de pruebas unitarias, para ello nos facilitan una integración completa con [ExUnit](http://elixir-lang.org/docs/stable/ex_unit/ExUnit.html), el framework para crear pruebas unitarias en Elixir.
 

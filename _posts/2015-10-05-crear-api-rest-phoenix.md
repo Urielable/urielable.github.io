@@ -1,11 +1,19 @@
 ---
 layout: post
-title: Cómo crear un API REST con Phoenix, Parte 1.
+title: Cómo crear un API REST con Phoenix, Parte 1. <Legado>
 date:   2015-10-07
 categories: Programacion elixir phoenix
 tags: Programación
 comments: true
 ---
+
+
+_________
+
+**NOTA:** Pense en actualizar el post a las versiones actuales, pero mejor lo dejaré como legado, será interesante ver que cambios hay de esta version a las versiones actuales. 
+
+Esperen el post o busquenlo en los post, ¡quiza ya lo escribí!.
+_________
 
 Hola, en esta ocasión les traigo un tutorial de como crear una api REST usando [Phoenix framework](http://www.phoenixframework.org/).
 
